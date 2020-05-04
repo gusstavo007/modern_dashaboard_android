@@ -1,0 +1,21 @@
+<LinearLayout ...>
+
+   <include layout="@layout/include_toolbar" />
+
+   <!-- use a parent container with horizontal orientation -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1" .../>
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1" .../>
+    </LinearLayout>
+</LinearLayout>
